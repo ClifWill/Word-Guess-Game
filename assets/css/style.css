@@ -1,0 +1,13 @@
+body {
+    background: url("../images/koala.jpeg");
+}
+
+.jumbotron {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+  }
+
+img {
+    width: 200px;
+    align-content: center;
+}
