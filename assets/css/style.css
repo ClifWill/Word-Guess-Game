@@ -9,5 +9,6 @@ body {
 
 img {
     width: 200px;
-    align-content: center;
+    align-content: block;
+    border: 8px solid purple;
 }

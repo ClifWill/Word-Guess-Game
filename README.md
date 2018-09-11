@@ -1,35 +1,36 @@
-# Word-Guess-Game
+# Word Guess Game
 
-## Option Two: Word Guess Game (Challenge - Recommended)
+> This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.
 
-1. [Watch the demo](hangman-game-demo.mov).
+## Getting Started
 
-2. Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any subject for your theme, though, so be creative!
+1. Press any key to get started!
 
-3. Use key events to listen for the letters that your players will type.
+2. As the user guesses the correct letters, they are revealed.
 
-4. Display the following on the page:
+3. After the user wins/loses the game will automatically choose another word and restart play.
 
-5. Press any key to get started!
+## Features
 
-6. Wins: (# of times user guessed the word correctly).
+This app tracks:
+* Number of Guesses Remaining: (# of guesses remaining for the user).
+* Wins: (# of times user guessed the word correctly).
+* Letters Already Guessed: (Letters the user has guessed, displayed like `L Z Y H`).`
 
-   * If the word is `madonna`, display it like this when the game starts: `_ _ _ _ _ _ _`.
+## Built With
 
-   * As the user guesses the correct letters, reveal them: `m a d o _  _ a`.
+* HTML/CSS
+* Bootstrap
+* jQuery/Javascript
 
-7. Number of Guesses Remaining: (# of guesses remaining for the user).
+## Authors
 
-8. Letters Already Guessed: (Letters the user has guessed, displayed like `L Z Y H`).
+* **Nutishia Lee** - [nlee728](https://github.com/nlee728)
 
-9. After the user wins/loses the game should automatically choose another word and make the user play it.
+## Related projects
 
-##### Word Guess Game Bonuses
+Here's a list of other related projects:
 
-1. Play a sound or song when the user guesses their word correctly, like in our demo.
-2. Write some stylish CSS rules to make a design that fits your game's theme.
-3. **HARD MODE:** Organize your game code as an object, except for the key events to get the letter guessed. This will be a challenge if you haven't coded with JavaScript before, but we encourage anyone already familiar with the language to try this out.
-4. Save your whole game and its properties in an object.
-5. Save any of your game's functions as methods, and call them underneath your object declaration using event listeners.
-6. Don't forget to place your global variables and functions above your object.
-   * Remember: global variables, then objects, then calls.
+- [Psychic Game](https://github.com/nlee728/Psychic-Game)
+- [Crystals Collector](https://github.com/nlee728/Unit-4-Game)
+- [Trivia Game](https://github.com/nlee728/TriviaGame)
