@@ -1,14 +1,43 @@
 body {
-    background: url("../images/koala.jpeg");
+	position: relative;
+	background-color: black;
 }
 
-.jumbotron {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    text-align: center;
-  }
+body {
+	font-family: "Courier New", Courier, monospace;
+	color: cyan;
+}
 
-img {
-    width: 200px;
-    align-content: block;
-    border: 8px solid purple;
+#title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#instruction, #alerts {
+	text-align: center;
+	font-size: 12px;
+}
+
+#main-content {
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+
+.panel {
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+}
+
+#word-display {
+	text-align: center;
+	font-size: 32px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#general-display {
+	text-align: center;
+	font-size: 16px;
 }
